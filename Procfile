@@ -1,1 +1,1 @@
-web: gunicorn especies.wsgi --log-file -
+web: gunicorn laboratorio.wsgi --log-file -
