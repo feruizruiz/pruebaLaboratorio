@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Laboratorio Uniandes</title>
      <link rel="stylesheet" href="{% static 'css/index.css' %}">
 
     <!-- Bootstrap Core CSS -->
@@ -44,7 +44,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Laboratorio Uniandes</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,13 +54,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Proyectos</a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#portfolio">Experimentos</a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#portfolio">Protocolos</a>
+                    </li>
+
+                    <li class="page-scroll">
+                        <a href="#portfolio">Solicitudes</a>
                     </li>
                 </ul>
             </div>
@@ -76,9 +82,9 @@
                 <div class="col-lg-12">
                     <img class="{% static 'img-responsive' %}" src="{% static 'img/profile.png'%}" alt="">
                     <div class="intro-text">
-                        <h1 class="name">Start Bootstrap</h1>
+                        <h1 class="name">Gestion Laboratorio Quimico </h1>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Proyextos - Experimentos - Solicitudes </span>
                     </div>
                 </div>
             </div>
@@ -90,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Tus Opciones</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -99,67 +105,39 @@
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <i class="fa fa-search-plus fa-3x"> Proyectos</i>
                             </div>
                         </div>
-                        <img src="{% static 'img/portfolio/cabin.png'%}" class="img-responsive" alt="Cabin">
+                        <img src="{% static 'img/portfolio/proyecto.png'%}" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <i class="fa fa-search-plus fa-3x">Experimentos</i>
                             </div>
                         </div>
-                        <img src="{% static 'img/portfolio/cake.png'%}" class="img-responsive" alt="Slice of cake">
+                        <img src="{% static 'img/portfolio/experimento.png'%}" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <i class="fa fa-search-plus fa-3x">Protocolos</i>
                             </div>
                         </div>
-                        <img src="{% static 'img/portfolio/circus.png'%}" class="img-responsive" alt="Circus tent">
+                        <img src="{% static 'img/portfolio/protocolo.png'%}" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/game.png'%}" class="img-responsive" alt="Game controller">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/safe.png'%}" class="img-responsive" alt="Safe">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/submarine.png'%}" class="img-responsive" alt="Submarine">
-                    </a>
-                </div>
+
+
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About Section
     <section class="success" id="about">
         <div class="container">
             <div class="row">
@@ -183,8 +161,8 @@
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
+-->
+    <!-- Contact Section
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -195,9 +173,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="name">Name</label>
@@ -238,19 +214,19 @@
             </div>
         </div>
     </section>
-
+-->
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
+                        <h3>Creado  Por </h3>
+                        <p>FiveSoft
+                            <br>Grupo 5 Procesos Agiles</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Contactanos</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
@@ -270,8 +246,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Procesos Agiles</h3>
+                        <p> Universidad de Los Andes <a href="https://www.uniandes.edu.co">Uniandes</a>.</p>
                     </div>
                 </div>
             </div>
